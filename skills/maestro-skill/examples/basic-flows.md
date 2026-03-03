@@ -178,12 +178,10 @@ appId: com.example.app
 
 ## Tips for Writing Flows
 
-1. **Always wait after launchApp** - Use `waitForAnimationToEnd` or `assertVisible`
-2. **Be specific with selectors** - Use IDs when available, text otherwise
+1. **Consider waits after launchApp** - Use `waitForAnimationToEnd` or `assertVisible` for apps with complex splash screens or async initialization
+2. **Use readable selectors** - Prefer text selectors for readability, use IDs when text is dynamic or ambiguous
 3. **Handle different states** - Use conditional flows for popups or loading states
-4. **Take screenshots** - Add screenshots at key points for debugging
-5. **Test on real devices** - Emulators/simulators may behave differently
-6. **Use descriptive names** - Name screenshot files clearly for easier debugging
+4. **Use descriptive names** - Name screenshot files clearly for easier debugging
 
 ## Common Issues and Solutions
 

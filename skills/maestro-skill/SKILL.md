@@ -113,7 +113,6 @@ appId: ${APP_ID}
 - repeat:
     times: 3
     commands:
-      - assertVisible: "Login Button"
       - tapOn: "Login Button"
 ```
 
